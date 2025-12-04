@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: radial-gradient(circle at top, #2f3c7e, #050816);
 }
 
 header {
@@ -35,4 +36,24 @@ a {
 
 nav {
     display: flex;
+}
+
+.page {
+    max-width: 1100px;
+    margin: 0 auto
+}
+
+.btn {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: hsl(10, 90%, 58%);
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: hsl(10, 90%, 48%);
 }
